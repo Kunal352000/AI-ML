@@ -1,17 +1,30 @@
 # Virtual Environment
+.venv/
 venv/
-.env/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
+# Build files
+build/
+dist/
+*.egg-info/
 
-# Python env config
-pyvenv.cfg
+# Logs
+*.log
